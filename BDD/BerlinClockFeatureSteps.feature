@@ -49,3 +49,14 @@ RRRR
 OOOOOOOOOOO
 OOOO
 """
+
+Scenario: Morning 08:31:15
+When the time is "08:31:15"
+Then the clock should look like
+"""
+O
+ROOO
+RRRO
+YYRYYROOOOO
+YOOO
+"""
